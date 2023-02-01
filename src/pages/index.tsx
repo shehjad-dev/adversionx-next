@@ -6,6 +6,8 @@ import Navbar from "../components/Navbar";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
 import MobileMenu from "../components/MobileMenu";
 import HeroSection from "../components/HeroSection";
+import CaseStudySection from "../components/CaseStudySection";
+import ServicesBox from "../components/ServicesBox";
 
 const Home: NextPage = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -29,8 +31,14 @@ const Home: NextPage = () => {
           <MobileMenu isMobileMenuOpen={isMobileMenuOpen} />
         </div>
         {!isMobileMenuOpen && (
-          <div className="mx-auto h-[1200px] max-w-7xl bg-white px-5">
+          <div className="mx-auto  max-w-7xl bg-white px-5">
             <HeroSection />
+            <CaseStudySection />
+            <h3 className="pt-10 text-center text-2xl font-bold text-indigo-600">
+              Our Services
+            </h3>
+            <ServicesBox />
+            {/* <div className="h-[600px]">asd</div> */}
           </div>
         )}
       </div>

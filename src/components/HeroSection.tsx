@@ -7,15 +7,15 @@ const HeroSection = (props: any) => {
   return (
     <div className="relative h-[80vh] sm:h-[600px]">
       <div className="absolute top-48 left-5 z-40 sm:left-28">
-        <h1 className="max-w-[35rem] text-2xl font-bold text-white sm:text-3xl">
+        <h1 className="max-w-[35rem] text-2xl font-extrabold text-white sm:text-3xl">
           Data Driven Digital Marketing Agency
         </h1>
-        <p className="mt-4 max-w-[90%] text-[0.9rem] font-normal text-white sm:mt-6 sm:max-w-[20rem] sm:text-base ">
+        <p className="mt-4 max-w-[90%] text-[0.9rem] font-medium text-white sm:mt-6 sm:max-w-[20rem] sm:text-base ">
           We help service-based & ecommerce companies to implement strategic
           marketing solutions to increase leads and sales.
         </p>
         <Link href={"/"}>
-          <span className="mt-4 flex w-fit gap-2 rounded-full bg-white py-2 px-3 text-indigo-700 hover:shadow-lg hover:shadow-indigo-700 sm:py-2 sm:px-4">
+          <span className="mt-4 flex w-fit animate-ping animate-fade-in gap-2 rounded-full bg-white py-2 px-3 text-indigo-700 hover:shadow-lg hover:shadow-indigo-700 sm:py-2">
             <span className="text-base font-medium">Explore Services</span>
             <span>
               <svg

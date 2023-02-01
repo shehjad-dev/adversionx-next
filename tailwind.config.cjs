@@ -7,6 +7,13 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      backgroundImage: {
+        /* hero: "url('../public/CaseStudyOne-bg.jpg')", */
+        "hero-pattern": "url('/CaseStudyOneBg.jpg')",
+      },
+      boxShadow: {
+        "3xl": "box-shadow: -1px -1px 128px 39px rgba(139,139,139,1);",
+      },
       keyframes: {
         "fade-in-down": {
           "0%": {
