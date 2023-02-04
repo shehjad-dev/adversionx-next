@@ -7,8 +7,8 @@ type Props = {
 
 const ServicesRevBox = (props: Props) => {
   return (
-    <div className="gap-18 flex flex-row-reverse py-20">
-      <div className="ml-14 flex w-[50%] flex-col justify-center gap-8">
+    <div className="gap-18 flex flex-col py-20 sm:flex-row-reverse">
+      <div className="flex w-[100%] flex-col justify-center gap-8 sm:w-[50%]">
         <h3 className="max-w-[35rem] text-2xl font-extrabold text-indigo-600 sm:text-3xl">
           100% Strategic PPC Management
         </h3>
@@ -19,8 +19,8 @@ const ServicesRevBox = (props: Props) => {
           does things differently.
         </p>
       </div>
-      <div className="flex w-[50%] gap-5">
-        <div className="w-[50%] border-t-2 border-t-indigo-400 bg-white shadow-xl">
+      <div className="mt-7 flex w-[100%] flex-col gap-5 sm:mt-0 sm:w-[50%] sm:flex-row">
+        <div className="w-[100%]  border-t-2 border-t-indigo-400 bg-white shadow-xl sm:w-[50%]">
           <div className="p-6">
             <div className="mb-2 text-gray-700">
               <svg
@@ -72,7 +72,7 @@ const ServicesRevBox = (props: Props) => {
             </Link>
           </div>
         </div>
-        <div className="w-[50%] border-t-2 border-t-indigo-400 bg-white shadow-xl">
+        <div className="w-[100%]  border-t-2 border-t-indigo-400 bg-white shadow-xl sm:w-[50%]">
           <div className="p-6">
             <div className="mb-2 text-gray-700">
               <svg
