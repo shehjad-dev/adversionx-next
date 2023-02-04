@@ -10,8 +10,8 @@ import {
 } from "@radix-ui/react-icons";
 
 type Props = {
-  isMobileMenuOpen?: boolean;
-  handleMobileMenuClick?: any;
+  isMobileMenuOpen: boolean;
+  handleMobileMenuClick: () => void;
 };
 
 const Navbar = ({ isMobileMenuOpen, handleMobileMenuClick }: Props) => {
