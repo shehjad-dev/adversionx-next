@@ -8,6 +8,10 @@ import MobileMenu from "../components/MobileMenu";
 import HeroSection from "../components/HeroSection";
 import CaseStudySection from "../components/CaseStudySection";
 import ServicesBox from "../components/ServicesBox";
+import ServicesRevBox from "../components/ServicesRevBox";
+import FAQSection from "../components/FAQSection";
+import ContactForm from "../components/ContactForm";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -38,6 +42,11 @@ const Home: NextPage = () => {
               Our Services
             </h3>
             <ServicesBox />
+            <ServicesRevBox />
+            <ServicesBox />
+            <FAQSection />
+            <ContactForm />
+            <Footer />
             {/* <div className="h-[600px]">asd</div> */}
           </div>
         )}

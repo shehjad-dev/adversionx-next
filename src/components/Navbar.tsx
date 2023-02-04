@@ -28,7 +28,7 @@ const Navbar = ({ isMobileMenuOpen, handleMobileMenuClick }: any) => {
     setIsSubmenu2Open(false);
   };
   return (
-    <div className="relative mx-auto flex max-w-7xl flex-row items-center justify-between bg-white px-2 py-2 md:px-5">
+    <div className="relative mx-auto flex max-w-7xl flex-row items-center justify-between border-b-[1.7px] border-indigo-100 bg-white px-2 py-2 md:px-5">
       <Link href={"/"}>
         <span className="pl-2 font-poppins text-xl  font-bold text-indigo-600 md:pl-0 md:text-2xl">
           Adversion{" "}
