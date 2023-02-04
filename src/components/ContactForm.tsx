@@ -1,8 +1,6 @@
 import React from "react";
 
-type Props = {};
-
-const ContactForm = (props: Props) => {
+const ContactForm = (props: any) => {
   return (
     <div>
       <section className="body-font relative text-gray-600">

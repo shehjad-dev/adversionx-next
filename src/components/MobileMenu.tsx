@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
 
-type Props = {};
-
 const MobileMenu = ({ isMobileMenuOpen }: any) => {
   const [isSubmenu1Open, setIsSubmenu1Open] = useState(false);
   const [isSubmenu2Open, setIsSubmenu2Open] = useState(false);

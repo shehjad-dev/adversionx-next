@@ -1,9 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = (props: any) => {
   return (
     <footer className="body-font bg-indigo-100 text-white">
       <div className="container mx-auto px-5 py-24">

@@ -4,9 +4,7 @@ import Case1CompLogo from "../assets/MVPLogo.png";
 import CaseStudyOneBg from "../assets/CaseStudyOne-bg.jpg";
 import Link from "next/link";
 
-type Props = {};
-
-const CaseStudySection = (props: Props) => {
+const CaseStudySection = (props: any) => {
   return (
     <div className="bg-hero py-24">
       <div>

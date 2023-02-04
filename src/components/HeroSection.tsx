@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import Link from "next/link";
 
-type Props = {};
-
 const HeroSection = (props: any) => {
   return (
     <div className="relative h-[80vh] sm:h-[600px]">

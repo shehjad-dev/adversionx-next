@@ -1,8 +1,6 @@
 import React from "react";
 
-type Props = {};
-
-const TechWeUse = (props: Props) => {
+const TechWeUse = (props: any) => {
   return (
     <div>
       <h3>Technologies We Use</h3>
