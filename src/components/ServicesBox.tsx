@@ -11,7 +11,7 @@ const ServicesBox = (props: any) => {
         <p className="max-w-[29rem] text-lg font-medium text-gray-600">
           We take the time to learn the dynamics of your business, enabling us
           to develop unique strategies that will align with your Pay Per Click
-          campaign objectives. We're an AdWords management company that simply
+          campaign objectives. We are an AdWords management company that simply
           does things differently.
         </p>
       </div>

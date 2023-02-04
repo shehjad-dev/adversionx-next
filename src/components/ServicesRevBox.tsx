@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const ServicesRevBox = (props: any) => {
+const ServicesRevBox = (props: {}) => {
   return (
     <div className="gap-18 flex flex-row-reverse py-20">
       <div className="ml-14 flex w-[50%] flex-col justify-center gap-8">
@@ -11,7 +11,7 @@ const ServicesRevBox = (props: any) => {
         <p className="max-w-[29rem] text-lg font-medium text-gray-600">
           We take the time to learn the dynamics of your business, enabling us
           to develop unique strategies that will align with your Pay Per Click
-          campaign objectives. We're an AdWords management company that simply
+          campaign objectives. We are an AdWords management company that simply
           does things differently.
         </p>
       </div>
