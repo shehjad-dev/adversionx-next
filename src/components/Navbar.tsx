@@ -9,7 +9,12 @@ import {
   ChevronDownIcon,
 } from "@radix-ui/react-icons";
 
-const Navbar = ({ isMobileMenuOpen, handleMobileMenuClick }: any) => {
+type Props = {
+  isMobileMenuOpen?: boolean;
+  handleMobileMenuClick?: any;
+};
+
+const Navbar = ({ isMobileMenuOpen, handleMobileMenuClick }: Props) => {
   const [isSubmenu1Open, setIsSubmenu1Open] = useState(false);
   const [isSubmenu2Open, setIsSubmenu2Open] = useState(false);
 

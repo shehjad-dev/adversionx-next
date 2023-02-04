@@ -1,7 +1,11 @@
 import React from "react";
 import Link from "next/link";
 
-const ServicesBox = (props: any) => {
+type Props = {
+  set?: string;
+};
+
+const ServicesBox = (props: Props) => {
   return (
     <div className="gap-18 flex py-20">
       <div className="flex w-[50%] flex-col justify-center gap-8">

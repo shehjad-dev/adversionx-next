@@ -1,6 +1,10 @@
 import React from "react";
 
-const FAQSection = (props: any) => {
+type Props = {
+  set?: string;
+};
+
+const FAQSection = (props: Props) => {
   return (
     <div>
       <section className="text-gray-700">

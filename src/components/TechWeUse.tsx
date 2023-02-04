@@ -1,6 +1,10 @@
 import React from "react";
 
-const TechWeUse = (props: any) => {
+type Props = {
+  set?: string;
+};
+
+const TechWeUse = (props: Props) => {
   return (
     <div>
       <h3>Technologies We Use</h3>

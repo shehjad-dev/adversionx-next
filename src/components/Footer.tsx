@@ -1,7 +1,11 @@
 import React from "react";
 import Link from "next/link";
 
-const Footer = (props: any) => {
+type Props = {
+  set?: string;
+};
+
+const Footer = (props: Props) => {
   return (
     <footer className="body-font bg-indigo-100 text-white">
       <div className="container mx-auto px-5 py-24">
